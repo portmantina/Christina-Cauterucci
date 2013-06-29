@@ -1,0 +1,202 @@
+caption, th, td {
+	text-align: right;
+}
+ul, ol {
+	margin: 0 3em 1.5em 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+	margin-bottom: 0;
+	margin-right: 1.5em;
+}
+dd {
+	margin: 0 0 1.5em 1.5em;
+}
+
+/* Forms */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	padding: .88em .88em .88em 1.55em;
+	
+}
+textarea {
+	padding-right: 3px;
+}
+
+/* =Layout
+----------------------------------------------- */
+/* Header */
+.site-header {
+	float: right;
+	width: 46%;
+	padding: 2%;
+	margin-right: 1%;
+	text-align: left;
+}
+
+.page-header h1, #secondary {
+	text-align: left;
+}
+#secondary {
+	text-align: right;
+}
+
+/* =Content
+----------------------------------------------- */
+.entry-title {
+	padding: 0em 0.3em 0 0.5em;
+}	
+
+/* =Gallery 
+----------------------------------------------- */
+.home .format-gallery .gallery p, .archive .format-gallery .gallery p, .search-results .format-gallery .gallery p{
+	float: right;
+	margin: 1%;
+}
+
+/* =Media
+----------------------------------------------- */
+.wp-caption-text {
+	text-align: right;
+	
+}
+.wp-post-image {
+	float: right;
+	margin: 0 0 1.5em 1.5em;
+}
+
+/* =Menu
+----------------------------------------------- */
+.main-navigation {
+	float: left;
+	width: 46%;
+	margin-right: 2%;
+	text-align: right;
+}
+.main-navigation li {
+	float: right;
+}
+
+.main-navigation ul ul {
+	float: right;
+	top: 3.333em;
+	right: 0;
+}
+.main-navigation ul ul ul {
+	right: 100%;
+}
+.main-navigation ul ul a {
+	text-align: right;
+}
+
+/* =Navigation
+----------------------------------------------- */
+#content .nav-previous {
+	float: right;
+}
+#content .nav-next {
+	float: left;
+	text-align: left;
+}
+
+#content .previous-image {
+	float: right;
+}
+
+#content .next-image {
+	float: left;
+	text-align: left;
+}
+
+/* =Comments
+----------------------------------------------- */
+.commentlist .comment ol {
+	margin-right: 3.1em;
+}
+
+.commentlist li li { padding-left: 10.15625%; }	/* 65px / 640px = 10.15625% */
+.commentlist .avatar {
+	float: right;
+	margin: 0 0 10px 15px;
+}
+
+	
+#respond label {
+	padding: 0 0 0 1%;
+}	
+
+#respond input {
+	margin-right: 1%;
+}
+
+
+/* Ordered & Unordered lists in comments */
+.comment-content ul ul, .comment-content ol ol, .comment-content ul ol, .comment-content ol ul {
+	margin-right: 1.5em;
+}
+
+/* =Widgets
+----------------------------------------------- */
+
+.widget {
+	margin: 0 1.5em 1.5em 0.5em;
+}
+
+/* =Search
+----------------------------------------------- */
+.bubble-right  .entry-format {
+	margin-right: -65px;
+	-webkit-border-radius: 0px 7px 7px 0px;
+	-moz-border-radius: 0px 7px 7px 0px;
+	border-radius: 0px 7px 7px 0px;
+	
+	
+	
+}
+
+.bubble-left  .entry-format {
+	margin-right: 700px;
+	-webkit-border-radius: 7px 0px 0px 7px;
+	-moz-border-radius: 7px 0px 0px 7px;
+	border-radius: 7px 0px 0px 7px;
+
+}
+
+/*
+Theme Name: Eureka
+Layout: Content-Sidebar
+*/
+
+#tertiary { /* Sidebar 2 */
+	clear: left;
+}
+/* Two Footer Widget Areas */
+#secondary.two .widget-area + .widget-area {
+	margin-left: 0;
+}
+/* Three Footer Widget Areas */
+#secondary.three .widget-area {
+	float: right;
+	margin-left: 3.7%;
+	margin-right: 0%;
+	width: 30.85%;
+}
+#secondary.three .widget-area + .widget-area + .widget-area {
+	margin-left: 0;
+}
+#secondary aside {
+	padding-left: 5%;
+	padding-right: 0%;
+}
+
+.bubble-right  .entry-format {
+	border-right: 1px solid #eee;
+	border-left: 0px solid #eee;
+}
+
+.bubble-left .entry-format {
+	border-left: 1px solid #eee;
+	border-right: 0px solid #eee;
+}
+

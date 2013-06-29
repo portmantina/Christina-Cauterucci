@@ -1,0 +1,53 @@
+/*
+Theme Name: Eureka
+Layout: Content-Sidebar
+*/
+
+#content {
+	margin: 0 auto;
+	width: 80%;
+}
+#secondary { /* Sidebar 1 */
+	margin: 0 auto;
+	width: 80%;
+}
+#tertiary { /* Sidebar 2 */
+	clear: right;
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+#page {
+	max-width: 960px;
+	margin: 0 auto;
+	
+	
+}
+#main {
+	clear: both;
+	padding-top: 2%;
+}
+.site-content {
+}
+#colophon {
+	margin: 0 auto;
+	width: 80%;
+}
+/* Two Footer Widget Areas */
+#secondary.two .widget-area + .widget-area {
+	margin-right: 0;
+}
+/* Three Footer Widget Areas */
+#secondary.three .widget-area {
+	float: left;
+	margin-right: 3.7%;
+	width: 30.85%;
+}
+#secondary.three .widget-area + .widget-area + .widget-area {
+	margin-right: 0;
+}
+#secondary aside {
+	padding-right: 5%;
+}
+

@@ -1,0 +1,35 @@
+.select-color-scheme {
+	display: inline-block;
+	margin-right: 10px;
+	overflow: hidden;
+	padding: 20px 20px 20px 0;
+	vertical-align: top;
+
+	width: 300px;
+}
+
+
+/* Allow for three-up on 1024px wide screens, e.g. tablets */
+@media only screen and (max-width: 1200px) {
+	.select-color-scheme,
+	.select-color-scheme .screenshot,
+	#current-theme img {
+		width: 240px;
+	}
+
+	.select-color-scheme .screenshot {
+		height: 180px;
+	}
+
+	.select-color-scheme img {
+		width: 100%;
+	}
+
+	#current-theme.has-screenshot {
+		padding-left: 270px;
+	}
+
+	#current-theme img {
+		margin-left: -270px;
+	}
+}
