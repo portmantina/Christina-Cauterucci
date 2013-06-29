@@ -1058,6 +1058,9 @@ textarea {
 
 /*.post , article.page, article.attachment*/
 .bubble-left {
+	/* To make the post bubble border thinner, I am going to reduce
+	the pixel count on all four of these sides. Maybe 10px each?
+	Maybe make the top and bottom a bit wider?*/
 	border-left: 30px solid #272628;
 	border-top: 20px solid #272628;
 	border-right: 20px solid #272628;
