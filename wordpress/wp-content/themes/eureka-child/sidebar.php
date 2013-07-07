@@ -1,3 +1,14 @@
+<?php
+/**
+ * The Sidebar containing three widget areas.
+ *
+ * @package Eureka
+ * @since Eureka 1.0
+ *
+ * @uses do_action() Calls 'eureka_before_sidebar' hook after #secondary
+ * @uses do_action() Calls 'eureka_after_sidebar' hook after end of #secondary
+ */
+?>
 <!--- NOT WANTING SIDEBAR --->
 <!---
 		<div id="secondary" class="three" role="complementary">
@@ -41,3 +52,4 @@
 			</div>
 			<?php do_action( 'eureka_after_sidebar' ); ?>
 		</div><!-- #secondary .widget-area -->
+
