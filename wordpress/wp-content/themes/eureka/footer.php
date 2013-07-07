@@ -11,7 +11,9 @@
  * @uses do_action() Calls 'eureka_credits' hook after .site-info
  */
 ?>
-	<?php do_action( 'eureka_after_content' ); ?>
+	<?php 
+
+	/* do_action( 'eureka_after_content' ); ?>
 	</div><!-- #main -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
