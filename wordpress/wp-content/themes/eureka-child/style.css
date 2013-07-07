@@ -32,3 +32,16 @@ Template: Eureka
 	border-bottom: 20px solid #272628;
 	padding: 2%;
 }
+
+/* Taking out the underlining of links on hover */
+#main  a:hover, #main a:focus, #main a:active {
+	text-decoration: none;
+}
+
+#secondary a:hover, #secondary a:active, #secondary a:focus {
+	text-decoration: none;
+}
+
+.site-title a:hover {
+	text-decoration: none;
+}
