@@ -8,7 +8,6 @@ Template: Eureka
 
 @import url("../eureka/style.css");
 
-/* Making bubbles thinner */
 /* Making bubbles thinner and changing their colors */
 .hentry, .no-results, .error404, .single-post-container, .single-image-container{
 	background-color: #ffffff;
