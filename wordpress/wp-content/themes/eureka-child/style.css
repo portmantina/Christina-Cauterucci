@@ -9,27 +9,32 @@ Template: Eureka
 @import url("../eureka/style.css");
 
 /* Making bubbles thinner */
+/* Making bubbles thinner and changing their colors */
+.hentry, .no-results, .error404, .single-post-container, .single-image-container{
+	background-color: #ffffff;
+	word-wrap: break-word;
+}
 /*.post , article.page, article.attachment*/
 .bubble-left {
 
-	border-left: 10px solid #272628;
-	border-top: 20px solid #272628;
-	border-right: 10px solid #272628;
-	border-bottom: 20px solid #272628;
+	border-left: 10px solid #E0281B;
+	border-top: 20px solid #E0281B;
+	border-right: 10px solid #E0281B;
+	border-bottom: 20px solid #E0281B;
 	padding: 2%;
 }
 .bubble-right {
-	border-left: 10px solid #272628;
-	border-top: 20px solid #272628;
-	border-right: 10px solid #272628;
-	border-bottom: 20px solid #272628;
+	border-left: 10px solid #E0281B;
+	border-top: 20px solid #E0281B;
+	border-right: 10px solid #E0281B;
+	border-bottom: 20px solid #E0281B;
 	padding: 2%;
 }
 .bubble {
-	border-left: 10px solid #272628;
-	border-top: 20px solid #272628;
-	border-right: 10px solid #272628;
-	border-bottom: 20px solid #272628;
+	border-left: 10px solid #E0281B;
+	border-top: 20px solid #E0281B;
+	border-right: 10px solid #E0281B;
+	border-bottom: 20px solid #E0281B;
 	padding: 2%;
 }
 
