@@ -49,3 +49,24 @@ Template: Eureka
 .site-title a:hover {
 	text-decoration: none;
 }
+
+/* Header */
+.site-header {
+	float: left;
+	width: 47%;
+	padding: 2%;
+	text-align: right;
+	font-family: "League Gothic", Arial Narrow, sans-serif;
+}
+.site-title {
+	font-size: 5.5em;
+	line-height: 0.8em;
+	text-transform: none;
+}
+
+.site-description {
+	font-size: 0.9em;
+	font-style: normal;
+	font-weight: normal;
+	font-family: "League Gothic", Arial, sans-serif;
+}
