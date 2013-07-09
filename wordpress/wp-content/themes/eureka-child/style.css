@@ -70,3 +70,90 @@ Template: Eureka
 	font-weight: normal;
 	font-family: "League Gothic", Arial, sans-serif;
 }
+
+/* Main Site Menu */
+
+/* =Menu
+----------------------------------------------- */
+.main-navigation {
+	float: right;
+	width: 40%;
+	margin-right: 8%;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	display: inline;
+	
+}
+
+.main-navigation ul a:hover {
+	color: white;
+}
+
+.main-navigation ul {
+	list-style: none;
+	margin: 0;
+	background: #155f7a;/*735640;*/
+	
+}
+.main-navigation li {
+	float: left;
+	position: relative;
+	
+}
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+	line-height: 3.333em;
+	padding: 0em 1.0714em;
+	font-weight: normal;
+
+}
+.main-navigation a:visited {
+	font-weight: normal;
+}
+
+.main-navigation ul ul {
+	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+	display: none;
+	float: left;
+	position: absolute;
+	top: 3.333em;
+	left: 0;
+	z-index: 99999;
+}
+.main-navigation ul ul ul {
+	left: 100%;
+	top: 0;
+}
+.main-navigation ul ul a {
+	width: 200px;
+	padding: 1.0714em 1.0714em;
+	line-height: 1.4em;
+	text-align: left;
+}
+.main-navigation ul ul li {
+
+}
+
+.main-navigation ul ul a:hover {
+}
+.main-navigation ul li:hover > ul {
+	display: block;
+}
+.main-navigation li.current_page_item a,
+.main-navigation li.current-menu-item a {
+	/*font-weight: bold;*/
+}
+.main-navigation li:hover > a {
+	font-weight: normal;
+}
+
+/* Small menu */
+.menu-toggle {
+	cursor: pointer;
+}
+.main-small-navigation .menu {
+	display: none;
+}
