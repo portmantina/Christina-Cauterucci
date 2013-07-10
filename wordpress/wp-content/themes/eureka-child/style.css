@@ -97,3 +97,9 @@ Template: Eureka
 	display: inline-block;
 	color: #707070;
 }
+
+/* Content Text */
+
+.entry-content {
+	font-size: 1.5em;
+}
