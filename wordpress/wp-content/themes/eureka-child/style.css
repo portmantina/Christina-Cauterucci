@@ -101,7 +101,8 @@ Template: Eureka
 /* Content Text */
 
 .entry-content {
-	font-size: 1.5em;
+	font-size: 1.2em;
+	font-family: "League Gothic", Helvetica, sans-serif;
 }
 
 .entry-content, .entry-meta, .entry-summary {
