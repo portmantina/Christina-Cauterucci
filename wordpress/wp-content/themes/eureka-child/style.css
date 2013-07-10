@@ -89,7 +89,9 @@ Template: Eureka
 
 /* Making Page and Post titles grey */
 
-
+#entry-header {
+	color: #707070;
+}
 
 .entry-title {
 	padding: 0em 0.5em 0 0.3em;
