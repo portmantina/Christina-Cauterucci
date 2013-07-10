@@ -89,6 +89,8 @@ Template: Eureka
 
 /* Making Page and Post titles grey */
 
+
+
 .entry-title {
 	padding: 0em 0.5em 0 0.3em;
 	font-size: 3.5em;
@@ -102,7 +104,7 @@ Template: Eureka
 
 .entry-content {
 	font-size: 1.2em;
-	font-family: "League Gothic", Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 }
 
 .entry-content, .entry-meta, .entry-summary {
