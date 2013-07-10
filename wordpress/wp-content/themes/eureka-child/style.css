@@ -103,3 +103,7 @@ Template: Eureka
 .entry-content {
 	font-size: 1.5em;
 }
+
+.entry-content, .entry-meta, .entry-summary {
+	padding: 0.5em 0.5em;
+}
