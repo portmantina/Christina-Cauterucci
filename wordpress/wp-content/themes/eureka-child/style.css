@@ -89,7 +89,7 @@ Template: Eureka
 
 /* Making Page and Post titles grey */
 
-#entry-header {
+.entry-header {
 	color: #707070;
 }
 
@@ -107,6 +107,7 @@ Template: Eureka
 .entry-content {
 	font-size: 1.2em;
 	font-family: Helvetica, sans-serif;
+	color: #707070
 }
 
 .entry-content, .entry-meta, .entry-summary {
