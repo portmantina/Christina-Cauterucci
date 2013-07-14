@@ -32,9 +32,7 @@
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</hgroup><!-- .site-header -->
 		
-		<nav role="navigation" class="site-navigation main-navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- .site-navigation main-navigation -->
+		
 		
 	</header><!-- #masthead -->
 	<?php do_action( 'eureka_after_header' ); ?>
