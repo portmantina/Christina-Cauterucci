@@ -1,7 +1,4 @@
 <div id="floatingbar"> </div> 
-<script type="text/ javascript" src="http:// code.jquery.com/jquery- 1.9.1.min.js">
-// < ![CDATA[ 
- <script type="text/javascript">
 $('#floatingbar').
 scrollToFixed();
 </script>
