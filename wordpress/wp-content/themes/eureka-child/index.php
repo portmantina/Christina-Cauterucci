@@ -1,4 +1,8 @@
-<div id="floatingbar"> </div> 
+<div id="floatingbar"> 
+	<nav role="navigation" class="site-navigation main-navigation">
+			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		</nav><!-- .site-navigation main-navigation -->
+</div> 
 $('#floatingbar').
 scrollToFixed();
 </script>
