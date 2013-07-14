@@ -113,3 +113,13 @@ Template: Eureka
 .entry-content, .entry-meta, .entry-summary {
 	padding: 0.5em 0.5em;
 }
+
+/* Floating Taskbar */
+
+#floatingbar {
+background: #707070;
+height: 57px;
+width: 100%;
+position: absolute;
+top: 0px; 
+}
