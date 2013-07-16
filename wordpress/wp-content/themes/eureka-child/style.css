@@ -57,6 +57,7 @@ Template: eureka
 	padding: 2%;
 	text-align: right;
 	font-family: "League Gothic", Arial Narrow, sans-serif;
+	padding-top: 50px;
 }
 .site-title {
 	font-size: 5.5em;
