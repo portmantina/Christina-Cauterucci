@@ -129,9 +129,13 @@ Template: eureka
 /* Floating Taskbar */
 
 #floatingbar {
+position:fixed;
+width:100%;
+height:42px;
+z-index: 10;
+color:white;
 background: #707070;
-height: 57px;
-width: 100%;
-position: absolute;
 top: 0px; 
+	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 }
