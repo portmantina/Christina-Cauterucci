@@ -23,6 +23,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+	
 <div id="page" class="hfeed site">
 	<?php do_action( 'eureka_before_header' ); ?>
 	<header id="masthead" role="banner">
@@ -33,8 +34,10 @@
 		</hgroup><!-- .site-header -->
 		
 		
-		
+		<a name="about"></a> 
 	</header><!-- #masthead -->
 	<?php do_action( 'eureka_after_header' ); ?>
 	<div id="main">
+		
 	<?php do_action( 'eureka_before_content' ); ?>
+	
