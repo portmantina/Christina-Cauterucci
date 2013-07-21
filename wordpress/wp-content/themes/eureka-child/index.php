@@ -1,8 +1,11 @@
+
 <div id="floatingbar"> 
 	<nav role="navigation" class="site-navigation main-navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- .site-navigation main-navigation -->
 </div> 
+<a name="top"></a>
+
 <?php
 /**
  * The main template file.
@@ -48,6 +51,7 @@ get_header(); ?>
 					<div class="entry-content">
 						<p><?php printf( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'eureka' ), admin_url( 'post-new.php' ) ); ?></p>
 					</div><!-- .entry-content -->
+					
 				</article><!-- #post-0 -->
 
 			<?php endif; ?>
