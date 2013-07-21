@@ -99,6 +99,7 @@ Template: eureka
 	color: white;
 }
 
+
 /* Making Page and Post titles grey */
 
 .entry-header {
@@ -107,7 +108,7 @@ Template: eureka
 
 .entry-title {
 	padding: 0em 0.5em 0 0.3em;
-	font-size: 3.5em;
+	font-size: 3em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	display: inline-block;
@@ -117,7 +118,7 @@ Template: eureka
 /* Content Text */
 
 .entry-content {
-	font-size: 1.2em;
+	font-size: 1em;
 	font-family: Helvetica, sans-serif;
 	color: #707070
 }
